@@ -1,0 +1,55 @@
+ html,
+        body {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        @font-face{
+            font-family: "Segoe UI";
+            src: url('../fonts/segoeuil.ttf');
+        }
+        .centro {
+            height: 100%;
+            width: 100%;
+            background-color: #f01111;
+            color: white;
+            padding-top: 6%;
+            box-sizing: border-box;
+            overflow-y: auto;
+            overflow-x: hidden;
+            font-family: "Segoe UI";
+        }
+
+        .cloud-image {
+            width: 1200px;
+            height: 100px;
+            padding-bottom: 50px;
+            margin: auto;
+        }
+
+        
+       
+
+     
+        .procurar{
+            min-width: 30px;
+            min-height: 100px;
+            margin: 0 20px;
+            position: absolute;
+            left: -100px;
+            top: 110px;
+
+        }
+
+        
+
+        @media (max-width: 1024px) {
+            .main-container{
+                padding-top: 1%;
+            }
+            .image-central {
+                padding-bottom: 30px;
+            }
+            
+        }
