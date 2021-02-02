@@ -9,37 +9,33 @@
             font-family: "Segoe UI";
             src: url('../fonts/segoeuil.ttf');
         }
-        .centro {
-            height: 100%;
-            width: 100%;
-            background-color: #f01111;
-            color: white;
-            padding-top: 6%;
-            box-sizing: border-box;
-            overflow-y: auto;
-            overflow-x: hidden;
-            font-family: "Segoe UI";
-        }
-
-        .cloud-image {
-            width: 1200px;
-            height: 100px;
-            padding-bottom: 50px;
-            margin: auto;
-        }
+       
 
         
        
 
      
-        .procurar{
+        #procurar{
             min-width: 30px;
-            min-height: 100px;
+            min-height: 50px;
             margin: 0 20px;
             position: absolute;
             left: -100px;
-            top: 110px;
+            
 
+        }
+
+        #social-midia {
+            background-color:#f5d109;
+            border:solid 1px;
+            
+            width:1380px;
+        }
+
+        #peças{
+            background-color: #f5d109;
+            height: 100px;
+            width: 100px;
         }
 
         
